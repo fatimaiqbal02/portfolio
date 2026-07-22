@@ -1,5 +1,5 @@
 // ============================================================
-//  PROFILE DATA — edit everything about you in one place
+//  PROFILE DATA 
 // ============================================================
 
 export const profile = {
@@ -11,7 +11,7 @@ export const profile = {
   // Path to your resume file placed inside the /public folder
   resumeFile: "/resume/Fatima's CV.pdf",
   summary:
-    "Software engineer with 1 year of experience building responsive web and mobile applications using React, Next.js, TypeScript, JavaScript, React Native and the MERN stack. I build dynamic, responsive, user-friendly and visually consistent interfaces, love learning new technologies, and enjoy collaborating with people who share my enthusiasm for innovation.",
+    "Software engineer with hands on experience building responsive web and mobile applications using React, Next.js, TypeScript, JavaScript, React Native and the MERN stack. I build dynamic, responsive, user-friendly and visually consistent interfaces, love learning new technologies, and enjoy collaborating with people who share my enthusiasm for innovation.",
   highlights: [
     "Responsive web & mobile development",
     "Strong problem solver & quick learner",
@@ -42,7 +42,7 @@ export const skills = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "Socket.io", "REST APIs", ".NET Core", "ASP.NET MVC"],
+    items: ["Node.js", "Express.js", "Socket.io", "REST APIs"],
   },
   {
     category: "Databases",
@@ -97,7 +97,6 @@ export const education = [
 
 // ============================================================
 //  ACHIEVEMENTS  (badge cards — icon + title + subtitle)
-//  "icon" is just an emoji; change it to anything you like.
 // ============================================================
 
 export const achievements = [
@@ -152,7 +151,7 @@ export const experience = [
       "Architected and developed a production-ready full-stack music platform using Next.js, TypeScript, MongoDB and Mongoose.",
       "Implemented secure authentication and authorization using JWT, bcrypt, Next.js Middleware and protected API routes.",
       "Engineered scalable RESTful APIs for user management, song retrieval, search, ratings, comments and interactions.",
-      "Built advanced SEO infrastructure including dynamic metadata generation and XML sitemaps for all pages.",
+      "Built advanced SEO infrastructure including XML sitemaps for all pages.",
       "Delivered a fully responsive, accessible UI and managed production deployments via FTP with the QA team.",
     ],
   },
@@ -160,49 +159,21 @@ export const experience = [
     role: "Freelance Software Engineer (Self-Employed)",
     company: "Freelancing",
     location: "Remote",
-    period: "Feb 2022 - Aug 2023",
+    period: "July 2024 - Aug 2024",
     points: [
-      "Managed multiple freelance projects simultaneously, meeting all deadlines and exceeding client expectations.",
-      "Developed and maintained websites using .NET with modern, responsive design principles.",
-      "Translated project requirements into technical specifications and deliverables with designers and clients.",
-      "Utilized C++, C#, Python, JavaScript, .NET Core, SQL, APIs, unit testing, WebSockets and SignalR.",
+      "Built responsive web applications using React and JavaScript, developing and integrating frontend components with RESTful APIs and backend services.",
+      "Developed and maintained websites using React, Java script, NextJs adhering to modern design principles and responsive web practices.",
+      "Stayed updated on industry trends and best practices through continuous learning.",
+      "Utilized skills in React, Javascript, Nextjs, Typescript, Redux, Tailwind CSS, ShadCN/UI, CSS, Api testing and integration.",
     ],
   },
 ];
 
 // ============================================================
-//  PROJECTS  —  GENERIC & DATA-DRIVEN
-//  To add a new project, just copy one object block below,
-//  paste it, and change the values. Nothing else to touch.
-//
-//  Fields:
-//   - title        : project name
-//   - description  : short paragraph about the project
-//   - technologies : array of tech / stacks used
-//   - image        : (optional) LOCAL image from /public/projects
-//                    e.g. "/projects/my-screenshot.png"
-//   - video        : (optional) LOCAL video from /public/projects
-//                    e.g. "/projects/my-demo.mp4"
-//   - liveUrl      : (optional) live demo link
-//   - codeUrl      : (optional) source code link
-//
-//  HOW TO ADD MEDIA:
-//   1. Drop your image/video file into the  public/projects/  folder.
-//   2. Reference it with a path that starts with "/projects/".
-//   If both are given, the video is shown (with image as its poster).
+//  PROJECTS
 // ============================================================
 
 export const projects = [
-  {
-    title: "Lyrics Hub — Song Lyrics & Meaning Platform",
-    description:
-      "A production-ready full-stack music platform built with Next.js and TypeScript where users discover songs and explore the meaning behind their lyrics. It features secure JWT-based authentication with protected middleware routes, ratings and comments, keyword-driven search with dynamic routing, and an SEO layer with dynamic metadata generation and XML sitemaps. Server-side rendering keeps pages fast and search-engine friendly across all devices.",
-    technologies: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "JWT", "REST APIs", "SEO"],
-    image: "/projects/lyrics-hub.png",
-    video: "",
-    liveUrl: "",
-    codeUrl: "https://github.com/fatimaiqbal02/nextjs-lyrics-hub",
-  },
   {
     title: "Travigo — Tour and Travel System ",
     description:
@@ -214,24 +185,14 @@ export const projects = [
     codeUrl: "https://github.com/fatimaiqbal02/mern-travel-app",
   },
   {
-    title: "GymFit — Gym Landing Page",
+    title: "Lyrics Hub — Song Lyrics & Meaning Platform",
     description:
-      "A polished, fully responsive landing page for a fictional gym brand. It combines a clean modern layout with smooth scroll animations and an interactive video slider to create an engaging first impression. Built from scratch with semantic HTML, CSS and vanilla JavaScript, it demonstrates strong attention to visual detail and cross-device responsiveness.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "",
+      "A production-ready full-stack music platform built with Next.js and TypeScript where users discover songs and explore the meaning behind their lyrics. It features secure JWT-based authentication with protected middleware routes, ratings and comments, keyword-driven search with dynamic routing, and an SEO layer with dynamic metadata generation and XML sitemaps. Server-side rendering keeps pages fast and search-engine friendly across all devices.",
+    technologies: ["Next.js", "TypeScript", "MongoDB", "Mongoose", "JWT", "REST APIs", "SEO"],
+    image: "/projects/lyrics-hub.png",
     video: "",
     liveUrl: "",
-    codeUrl: "https://github.com/fatimaiqbal02/gymfit-landing-page",
-  },
-  {
-    title: "Doctor Assistant — Healthcare Web & Mobile App",
-    description:
-      "A cross-platform healthcare application (final year project) that helps patients find doctors, book appointments, manage medical histories and hold secure consultations. On the practitioner side it streamlines clinical workflows by automating tasks such as generating medical records through voice recognition. The system spans a web frontend, a mobile client and a backend API working together as one connected platform.",
-    technologies: ["React Native", "React.js", "Node.js", "Express.js", "MongoDB", "REST APIs"],
-    image: "/projects/doctor-assistant.jpeg",
-    video: "",
-    liveUrl: "",
-    codeUrl: "https://github.com/fatimaiqbal02/doctor-assistant",
+    codeUrl: "https://github.com/fatimaiqbal02/nextjs-lyrics-hub",
   },
   {
     title: "Chatter Hub — Real-Time Chat Application",
@@ -244,6 +205,26 @@ export const projects = [
     codeUrl: "https://github.com/fatimaiqbal02/nodejs-chatter-hub",
   },
   {
+    title: "Doctor Assistant — Healthcare Web & Mobile App",
+    description:
+      "A cross-platform healthcare application (final year project) that helps patients find doctors, book appointments, manage medical histories and hold secure consultations. On the practitioner side it streamlines clinical workflows by automating tasks such as generating medical records through voice recognition. The system spans a web frontend, a mobile client and a backend API working together as one connected platform.",
+    technologies: ["React Native", "React.js", "Django", "PostgreSQL", "Ngrok", "WebRTC"],
+    image: "/projects/doctor-assistant.jpeg",
+    video: "",
+    liveUrl: "",
+    codeUrl: "https://github.com/fatimaiqbal02/doctor-assistant",
+  },
+  {
+    title: "GymFit — Gym Landing Page",
+    description:
+      "A polished, fully responsive landing page for a fictional gym brand. It combines a clean modern layout with smooth scroll animations and an interactive video slider to create an engaging first impression. Built from scratch with semantic HTML, CSS and vanilla JavaScript, it demonstrates strong attention to visual detail and cross-device responsiveness.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+    image: "/projects/gymfit-landing-page.png",
+    video: "",
+    liveUrl: "https://gymfit-landing-page.netlify.app/",
+    codeUrl: "https://github.com/fatimaiqbal02/gymfit-landing-page",
+  },
+  {
     title: "CNN Website Clone",
     description:
       "A responsive clone of the CNN homepage that faithfully replicates the look, feel and layout of the original news site. Built with HTML, CSS and JavaScript, it adapts seamlessly across screen sizes using media queries and Flexbox, and layers in dynamic, interactive behavior with clean, maintainable code.",
@@ -252,16 +233,6 @@ export const projects = [
     video: "",
     liveUrl: "https://cnn-website-clone.tiiny.site/",
     codeUrl: "https://github.com/fatimaiqbal02/cnn-website-clone",
-  },
-  {
-    title: "Quran Search App",
-    description:
-      "A mobile application built with React Native for searching and exploring Quranic content on the go. It offers a smooth, native mobile experience with fast lookup and a clean, focused interface, developed as a mid-semester mobile development project.",
-    technologies: ["React Native", "JavaScript", "Expo"],
-    image: "",
-    video: "",
-    liveUrl: "",
-    codeUrl: "https://github.com/fatimaiqbal02/QuranSearchApp-Mid",
   },
   {
     title: "MERN Events App — Event Management System",
@@ -343,16 +314,4 @@ export const projects = [
     liveUrl: "",
     codeUrl: "https://github.com/fatimaiqbal02/operating-systems",
   },
-  // ----------------------------------------------------------
-  // ADD YOUR NEXT PROJECT BY COPYING A BLOCK ABOVE 👇
-  // {
-  //   title: "Project Name",
-  //   description: "What the project does...",
-  //   technologies: ["React", "Node.js"],
-  //   image: "/projects/my-image.png",
-  //   video: "/projects/my-demo.mp4",
-  //   liveUrl: "",
-  //   codeUrl: "https://github.com/...",
-  // },
-  // ----------------------------------------------------------
 ];
