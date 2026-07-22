@@ -21,7 +21,7 @@
 }
 
 html {
-  /*scrollbar-color:#bf72ac var(--bg);*/
+  scrollbar-color:#bf72ac var(--bg);
   scroll-behavior: smooth;
 }
 
