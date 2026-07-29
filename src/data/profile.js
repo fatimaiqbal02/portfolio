@@ -215,6 +215,16 @@ export const projects = [
     codeUrl: "https://github.com/fatimaiqbal02/doctor-assistant",
   },
   {
+    title: "NewsSphere — News Application ",
+    description:
+      "A responsive React.js news application that delivers the latest headlines across multiple categories using the NewsAPI. It features infinite scrolling, category-based navigation, loading indicators, and a clean, modern interface. Users can read article summaries and seamlessly navigate to the original news source for the complete story.",
+    technologies: ["React.js", "CSS3", "JavaScript", "Bootstrap 5", "NewsAPI" , "Responsive Design"],
+    image: "/projects/news-sphere.png",
+    video: "",
+    liveUrl: "",
+    codeUrl: "https://github.com/fatimaiqbal02/react-news-app",
+  },
+  {
     title: "GymFit — Gym Landing Page",
     description:
       "A polished, fully responsive landing page for a fictional gym brand. It combines a clean modern layout with smooth scroll animations and an interactive video slider to create an engaging first impression. Built from scratch with semantic HTML, CSS and vanilla JavaScript, it demonstrates strong attention to visual detail and cross-device responsiveness.",
