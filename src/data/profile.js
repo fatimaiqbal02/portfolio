@@ -146,7 +146,7 @@ export const experience = [
     role: "Software Engineer (MERN Stack)",
     company: "Lyrics Meaning Website",
     location: "Lahore, Pk",
-    period: "Dec 2023 - Feb 2024",
+    period: "Dec 2024 - July 2025",
     points: [
       "Architected and developed a production-ready full-stack music platform using Next.js, TypeScript, MongoDB and Mongoose.",
       "Implemented secure authentication and authorization using JWT, bcrypt, Next.js Middleware and protected API routes.",
@@ -159,7 +159,7 @@ export const experience = [
     role: "Freelance Software Engineer (Self-Employed)",
     company: "Freelancing",
     location: "Remote",
-    period: "July 2024 - Aug 2024",
+    period: "Jan 2025 – Present",
     points: [
       "Built responsive web applications using React and JavaScript, developing and integrating frontend components with RESTful APIs and backend services.",
       "Developed and maintained websites using React, Java script, NextJs adhering to modern design principles and responsive web practices.",

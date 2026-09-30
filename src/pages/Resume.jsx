@@ -5,7 +5,7 @@ export default function Resume() {
     const link = document.createElement("a");
     // encodeURI handles the space/apostrophe in the file name safely
     link.href = encodeURI(profile.resumeFile);
-    link.download = "Fatima-Iqbal-Mirza-CV.pdf";
+    link.download = "Fatima's CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
